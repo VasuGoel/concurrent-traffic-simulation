@@ -28,3 +28,21 @@ git@github.com:VasuGoel/concurrent-traffic-simulation.git
   * Mac: `brew install opencv`
   * The OpenCV 4.1.0 source code can be found [here](https://github.com/opencv/opencv/tree/4.1.0)
   
+## Compiling and Running
+### Compiling
+To compile the project, create a `build` directory and change to that directory:
+```
+mkdir build && cd build
+```
+From within the `build` directory, run `cmake` and `make` as follows:
+```
+cmake ..
+make
+```
+
+### Running
+The executable will be placed in the `build` directory. From within `build`, you can run the project as follows:
+```
+./traffic_simulation
+```
+  
