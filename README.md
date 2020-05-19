@@ -2,6 +2,13 @@
 Multithreaded traffic simulator on real urban map using real-time computer vision library OpenCV. Run each vehicle on a
 separate thread, and manage intersections to facilitate traffic flow and avoid collisions. This concurrent traffic simulation creates separate threads for each vehicle, intersection, and traffic light object with each thread performing a specialised task in parallel to the main program execution.
 
+<p align="center"> <em>New York City traffic simulation</em> </p>
+<p> <img src="./images/nyc.gif" alt> </p>
+
+<p align="center"> <em>Paris Arc De Triomphe traffic simulation</em> </p>
+<p> <img src="./images/paris.gif" alt> </p>
+
+
 ## Cloning
 You can clone the repository with HTTPS:
 ```
@@ -39,6 +46,7 @@ From within the `build` directory, run `cmake` and `make` as follows:
 cmake ..
 make
 ```
+<p> <img src="./images/cmake.gif" alt> </p>
 
 ### Running
 The executable will be placed in the `build` directory. From within `build`, you can run the project as follows:
